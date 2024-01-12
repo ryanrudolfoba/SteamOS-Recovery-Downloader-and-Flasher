@@ -25,11 +25,11 @@ No binaries are provided in this repository. The latest SteamOS Recovery Image i
 </p>
 
 
-## [Video Tutorial - Easily Download and Flash the SteamOS Recovery Image](https://www.youtube.com/watch?v=heo2yFycnsM)
+## [Video Tutorial - Easily Download and Flash the SteamOS Recovery Image](https://youtu.be/qzyhqxr7ep8?si=jPSsLJTf6GtxCEFz)
 [Click the image below for a video tutorial and to see the functionalities of the script!](https://www.youtube.com/watch?v=heo2yFycnsM)
 </b>
 <p align="center">
-<a href="https://www.youtube.com/watch?v=heo2yFycnsM"> <img src="https://github.com/ryanrudolfoba/SteamDOS-Recovery-Downloader-and-Flasher/blob/main/banner.png"/> </a>
+<a href="https://youtu.be/qzyhqxr7ep8?si=jPSsLJTf6GtxCEFz"> <img src="https://github.com/ryanrudolfoba/SteamDOS-Recovery-Downloader-and-Flasher/blob/main/banner.png"/> </a>
 </p>
 
 ## What's New (as of January 11 2023)
