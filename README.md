@@ -41,18 +41,19 @@ No binaries are provided in this repository. The latest SteamOS Recovery Image i
 ## How to Use
 1. Go into Desktop Mode and open a konsole terminal.
 2. Plug in a USB flash drive that will be used for the SteamOS recovery image. \
-   a. If no USB flash drive is detected, the script will exit. \
-   b. If more than 2 USB flash drives are detected, the script will exit! Make sure only 1 USB flash drive is plugged in!
+   Enter the command and make sure that only 1 USB device is plugged in and detected -\
+   lsblk -d | grep sd \
+![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/3146029e-2e32-49db-8a6e-c17f175e0666)
    
 4. Clone the github repo. \
    cd ~/ \
-   git clone https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher.git
+   git clone https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher.git \
 ![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/21800f3a-17fb-4583-8781-e782beeb3eb6)
 
 6. Execute the script! \
    cd ~/SteamOS-Recovery-Downloader-and-Flasher \
    chmod +x SteamOS-Recovery-Downloader-and-Flasher.sh \
-   ./SteamOS-Recovery-Downloader-and-Flasher.sh
+   ./SteamOS-Recovery-Downloader-and-Flasher.sh \
 ![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/6baa9ac7-f0fb-45e6-a695-bce51720268a)
    
 8. The script will check if sudo passwword is already set.\
@@ -68,12 +69,12 @@ No binaries are provided in this repository. The latest SteamOS Recovery Image i
 ![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/05278d8a-52d3-463c-ac9d-44e44b5045be)
 
 9. Script will download the latest SteamOS Recovery image from Valve website. \
-   This will take several minutes depending on the speed of the internet connection.
+   This will take several minutes depending on the speed of the internet connection. \
 ![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/8a55d505-1750-4b6b-9786-feb4a18c0c9a)
 
 10. Script will perform a hash check to make sure that download is not corrupted and then flash the image to the USB device. \
-   This will take several minutes depending on the speed of the USB device.
+   This will take several minutes depending on the speed of the USB device. \
 ![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/f4a8715b-5e64-4fba-9b09-4d8c7a865526)
 
-11. Complete! Power off your Steam Deck, then press VOLDOWN + POWER and select the USB device.
+11. Complete! Power off your Steam Deck, then press VOLDOWN + POWER and select the USB device. \
 ![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/e4b733ce-23b6-4925-926b-9a969234a6ac)
