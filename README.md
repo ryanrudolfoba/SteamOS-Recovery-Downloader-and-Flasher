@@ -53,18 +53,24 @@ No binaries are provided in this repository. The latest SteamOS Recovery Image i
    ./SteamOS-Recovery-Downloader-and-Flasher.sh
    
 6. The script will check if sudo passwword is already set.\
-![image](https://github.com/ryanrudolfoba/SteamDeck-dualboot/assets/98122529/0a004f8d-a840-4867-b897-bae2d1b1395d)
+![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/8a7db91a-2748-479e-9927-de6d51083ad8)
 
-   a. If the sudo password is already set, enter the current sudo password and the script will continue to run and the main menu will be displayed. \
-   ![image](https://github.com/ryanrudolfoba/SteamDeck-dualboot/assets/98122529/afe7d0d5-500f-4bc5-83f1-db14886bd826)
+   a. If the sudo password is already set, enter the current sudo password. The script will continue to run and download the SteamOS Recovery Image. \
+![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/9161afb4-adbd-4aab-8ffb-13bfc2326935)
 
    b. If wrong sudo password is provided the script will show an error message. Re-run the script and enter the correct sudo password!\
-![image](https://github.com/ryanrudolfoba/SteamDeck-dualboot/assets/98122529/41852180-89ce-4d3e-9d91-c25396abfa11)
+![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/bcede292-7212-487a-9414-549d6df88b88)
          
    c. If the sudo password is blank / not yet set, the script will prompt to setup the sudo password. Re-run the script again to continue.\
-![image](https://github.com/ryanrudolfoba/SteamDeck-dualboot/assets/98122529/e3845f99-073c-4fdc-8cab-582ad08b87e8)
+![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/05278d8a-52d3-463c-ac9d-44e44b5045be)
 
-7. Script will download the latest SteamOS Recovery image from Valve website. Script will verify hash to make sure it is not corrupted and finally flash it automatically to the connected USB device!\
-![image](https://github.com/ryanrudolfoba/SteamDeck-dualboot/assets/98122529/afe7d0d5-500f-4bc5-83f1-db14886bd826)
+7. Script will download the latest SteamOS Recovery image from Valve website. \
+   This will take several minutes depending on the speed of the internet connection.
+![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/8a55d505-1750-4b6b-9786-feb4a18c0c9a)
 
+8. Script will perform a hash check to make sure that download is not corrupted and then flash the image to the USB device. \
+   This will take several minutes depending on the speed of the USB device.
+![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/f4a8715b-5e64-4fba-9b09-4d8c7a865526)
 
+9. Complete! Power off your Steam Deck, then press VOLDOWN + POWER and select the USB device.
+![image](https://github.com/ryanrudolfoba/SteamOS-Recovery-Downloader-and-Flasher/assets/98122529/e4b733ce-23b6-4925-926b-9a969234a6ac)
